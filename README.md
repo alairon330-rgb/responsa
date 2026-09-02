@@ -80,13 +80,20 @@ qualquer lugar do terminal.
 Ao rodar `python -m responsa` (ou `responsa`), você verá o banner e o menu:
 
 ```
-[1] Busca por nome de usuário
-[2] Busca por e-mail
-[3] Busca por CEP
-[4] Busca por telefone
-[5] Busca por nome completo
-[6] Busca por IP
-[0] Sair
+[1]  Busca por nome de usuário
+[2]  Busca por e-mail
+[3]  Busca por CEP
+[4]  Busca por telefone
+[5]  Busca por nome completo
+[6]  Busca por IP
+[7]  WHOIS / registro de domínio
+[8]  Subdomínios (Certificate Transparency)
+[9]  Consulta de CNPJ
+[10] Análise de link suspeito (VirusTotal)
+[11] Identificador de hash
+[12] Busca reversa de imagem / EXIF
+[13] Validador de CPF (offline)
+[0]  Sair
 ```
 
 Basta escolher o número da opção e informar o dado solicitado. Ao final de
