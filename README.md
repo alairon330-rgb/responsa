@@ -55,6 +55,7 @@ cd responsa
 
 # 2. (Recomendado) crie um ambiente virtual
 python3 -m venv venv
+# Escolha a linha correspondente ao seu sistema operacional:
 source venv/bin/activate      # Linux/Mac
 venv\Scripts\activate         # Windows
 
