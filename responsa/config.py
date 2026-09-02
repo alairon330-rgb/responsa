@@ -13,7 +13,7 @@ OUTPUT_DIR = os.path.join(os.getcwd(), "responsa_resultados")
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; ResponsaOSINT/1.0; "
-        "+https://github.com/SEU_USUARIO/responsa)"
+        "+https://github.com/alairon330-rgb/responsa)"
     ),
     "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 }

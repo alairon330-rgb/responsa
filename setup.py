@@ -10,7 +10,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Seu Nome",
-    url="https://github.com/SEU_USUARIO/responsa",
+    url="https://github.com/alairon330-rgb/responsa",
     license="MIT",
     packages=find_packages(exclude=["tests", "tests.*"]),
     include_package_data=True,
