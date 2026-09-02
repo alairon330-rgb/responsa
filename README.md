@@ -50,7 +50,7 @@ cores e o desenho em `responsa/banner.py`.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/responsa.git
+git clone https://github.com/alairon330-rgb/responsa.git
 cd responsa
 
 # 2. (Recomendado) crie um ambiente virtual
