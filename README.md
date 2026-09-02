@@ -210,7 +210,7 @@ informação e verificação de informações públicas. Ao usá-lo:
 
 ## 📄 Licença
 
-Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais detalhes.
+Distribuído sob MIT + Commons Clause (uso livre, incluindo modificação e redistribuição, exceto venda). Veja [LICENSE](LICENSE) para o texto completo.
 
 ## 🤝 Contribuindo
 
