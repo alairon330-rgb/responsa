@@ -1,0 +1,912 @@
+{
+  "meta": {
+    "total": 129,
+    "social_count": 28,
+    "general_count": 101
+  },
+  "sites": [
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/{}/",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "twitter_x",
+      "name": "Twitter / X",
+      "url": "https://x.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "url": "https://www.facebook.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/user/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "url": "https://gitlab.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "url": "https://t.me/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "vk",
+      "name": "VKontakte",
+      "url": "https://vk.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "tumblr",
+      "name": "Tumblr",
+      "url": "https://{}.tumblr.com",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "url": "https://medium.com/@{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "flickr",
+      "name": "Flickr",
+      "url": "https://www.flickr.com/people/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "url": "https://vimeo.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "url": "https://soundcloud.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "url": "https://open.spotify.com/user/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "url": "https://www.snapchat.com/add/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "url": "https://steamcommunity.com/id/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "url": "https://www.threads.net/@{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon (mastodon.social)",
+      "url": "https://mastodon.social/@{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "kwai",
+      "name": "Kwai",
+      "url": "https://www.kwai.com/@{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "url": "https://www.behance.net/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "dribbble",
+      "name": "Dribbble",
+      "url": "https://dribbble.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "myspace",
+      "name": "Myspace",
+      "url": "https://myspace.com/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "vsco",
+      "name": "VSCO",
+      "url": "https://vsco.co/{}",
+      "category": "social",
+      "method": "status_code"
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/user?id={}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "producthunt",
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/@{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "kaggle",
+      "name": "Kaggle",
+      "url": "https://www.kaggle.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "codepen",
+      "name": "CodePen",
+      "url": "https://codepen.io/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "url": "https://replit.com/@{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "dockerhub",
+      "name": "Docker Hub",
+      "url": "https://hub.docker.com/u/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "npm",
+      "name": "npm",
+      "url": "https://www.npmjs.com/~{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "pypi",
+      "name": "PyPI",
+      "url": "https://pypi.org/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "devto",
+      "name": "DEV Community",
+      "url": "https://dev.to/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "hashnode",
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "sourceforge",
+      "name": "SourceForge",
+      "url": "https://sourceforge.net/u/{}/",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "bitbucket",
+      "name": "Bitbucket",
+      "url": "https://bitbucket.org/{}/",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "keybase",
+      "name": "Keybase",
+      "url": "https://keybase.io/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "aboutme",
+      "name": "About.me",
+      "url": "https://about.me/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "gravatar",
+      "name": "Gravatar",
+      "url": "https://en.gravatar.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "wordpress",
+      "name": "WordPress.com",
+      "url": "https://{}.wordpress.com",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "blogger",
+      "name": "Blogger",
+      "url": "https://{}.blogspot.com",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "quora",
+      "name": "Quora",
+      "url": "https://www.quora.com/profile/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "slideshare",
+      "name": "SlideShare",
+      "url": "https://www.slideshare.net/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "scribd",
+      "name": "Scribd",
+      "url": "https://www.scribd.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "url": "https://trello.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "codeforces",
+      "name": "Codeforces",
+      "url": "https://codeforces.com/profile/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "url": "https://leetcode.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "hackerrank",
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "itch_io",
+      "name": "itch.io",
+      "url": "https://{}.itch.io",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "bandcamp",
+      "name": "Bandcamp",
+      "url": "https://{}.bandcamp.com",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "mixcloud",
+      "name": "Mixcloud",
+      "url": "https://www.mixcloud.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "discogs",
+      "name": "Discogs",
+      "url": "https://www.discogs.com/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "genius",
+      "name": "Genius",
+      "url": "https://genius.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "lastfm",
+      "name": "Last.fm",
+      "url": "https://www.last.fm/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "letterboxd",
+      "name": "Letterboxd",
+      "url": "https://letterboxd.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "myanimelist",
+      "name": "MyAnimeList",
+      "url": "https://myanimelist.net/profile/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "deviantart",
+      "name": "DeviantArt",
+      "url": "https://www.deviantart.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "px500",
+      "name": "500px",
+      "url": "https://500px.com/p/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "url": "https://unsplash.com/@{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "patreon",
+      "name": "Patreon",
+      "url": "https://www.patreon.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "kofi",
+      "name": "Ko-fi",
+      "url": "https://ko-fi.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "etsy",
+      "name": "Etsy",
+      "url": "https://www.etsy.com/shop/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "url": "https://www.ebay.com/usr/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "chesscom",
+      "name": "Chess.com",
+      "url": "https://www.chess.com/member/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "lichess",
+      "name": "Lichess",
+      "url": "https://lichess.org/@/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "trakt",
+      "name": "Trakt",
+      "url": "https://trakt.tv/users/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "wellfound",
+      "name": "Wellfound (AngelList)",
+      "url": "https://wellfound.com/u/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "goodreads",
+      "name": "Goodreads",
+      "url": "https://www.goodreads.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "fiverr",
+      "name": "Fiverr",
+      "url": "https://www.fiverr.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "researchgate",
+      "name": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "academia_edu",
+      "name": "Academia.edu",
+      "url": "https://independent.academia.edu/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "disqus",
+      "name": "Disqus",
+      "url": "https://disqus.com/by/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "imgur",
+      "name": "Imgur",
+      "url": "https://imgur.com/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "giphy",
+      "name": "GIPHY",
+      "url": "https://giphy.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "ifunny",
+      "name": "iFunny",
+      "url": "https://ifunny.co/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "wattpad",
+      "name": "Wattpad",
+      "url": "https://www.wattpad.com/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "ao3",
+      "name": "Archive of Our Own",
+      "url": "https://archiveofourown.org/users/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "codewars",
+      "name": "Codewars",
+      "url": "https://www.codewars.com/users/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "gumroad",
+      "name": "Gumroad",
+      "url": "https://{}.gumroad.com",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "buymeacoffee",
+      "name": "Buy Me a Coffee",
+      "url": "https://www.buymeacoffee.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "houzz",
+      "name": "Houzz",
+      "url": "https://www.houzz.com/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "foursquare",
+      "name": "Foursquare",
+      "url": "https://foursquare.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "weheartit",
+      "name": "We Heart It",
+      "url": "https://weheartit.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "ravelry",
+      "name": "Ravelry",
+      "url": "https://www.ravelry.com/people/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "namemc",
+      "name": "NameMC (Minecraft)",
+      "url": "https://namemc.com/profile/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "osu",
+      "name": "osu!",
+      "url": "https://osu.ppy.sh/users/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "speedrun",
+      "name": "Speedrun.com",
+      "url": "https://www.speedrun.com/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "ello",
+      "name": "Ello",
+      "url": "https://ello.co/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "newgrounds",
+      "name": "Newgrounds",
+      "url": "https://{}.newgrounds.com",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "carbonmade",
+      "name": "Carbonmade",
+      "url": "https://{}.carbonmade.com",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "issuu",
+      "name": "Issuu",
+      "url": "https://issuu.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "gitee",
+      "name": "Gitee",
+      "url": "https://gitee.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "launchpad",
+      "name": "Launchpad",
+      "url": "https://launchpad.net/~{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "sketchfab",
+      "name": "Sketchfab",
+      "url": "https://sketchfab.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "opensea",
+      "name": "OpenSea",
+      "url": "https://opensea.io/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "rarible",
+      "name": "Rarible",
+      "url": "https://rarible.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "pastebin",
+      "name": "Pastebin",
+      "url": "https://pastebin.com/u/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "crates_io",
+      "name": "crates.io",
+      "url": "https://crates.io/users/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "indiehackers",
+      "name": "Indie Hackers",
+      "url": "https://www.indiehackers.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "f6s",
+      "name": "F6S",
+      "url": "https://www.f6s.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "polywork",
+      "name": "Polywork",
+      "url": "https://www.polywork.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "peerlist",
+      "name": "Peerlist",
+      "url": "https://peerlist.io/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "write_as",
+      "name": "Write.as",
+      "url": "https://{}.write.as",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "substack",
+      "name": "Substack",
+      "url": "https://{}.substack.com",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "microblog",
+      "name": "Micro.blog",
+      "url": "https://micro.blog/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "pixelfed",
+      "name": "Pixelfed",
+      "url": "https://pixelfed.social/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "minds",
+      "name": "Minds",
+      "url": "https://www.minds.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "askfm",
+      "name": "ASKfm",
+      "url": "https://ask.fm/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "linktree",
+      "name": "Linktree",
+      "url": "https://linktr.ee/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "carrd",
+      "name": "Carrd",
+      "url": "https://{}.carrd.co",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "beacons",
+      "name": "Beacons",
+      "url": "https://beacons.ai/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "mshake",
+      "name": "msha.ke",
+      "url": "https://msha.ke/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "taplink",
+      "name": "Taplink",
+      "url": "https://taplink.cc/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "redbubble",
+      "name": "Redbubble",
+      "url": "https://www.redbubble.com/people/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "society6",
+      "name": "Society6",
+      "url": "https://society6.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "teepublic",
+      "name": "TeePublic",
+      "url": "https://www.teepublic.com/user/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "zazzle",
+      "name": "Zazzle",
+      "url": "https://www.zazzle.com/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "rubygems",
+      "name": "RubyGems",
+      "url": "https://rubygems.org/profiles/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "9gag",
+      "name": "9GAG",
+      "url": "https://9gag.com/u/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "mercadolivre",
+      "name": "Mercado Livre (BR)",
+      "url": "https://www.mercadolivre.com.br/perfil/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "elo7",
+      "name": "Elo7 (BR)",
+      "url": "https://www.elo7.com.br/loja/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "catarse",
+      "name": "Catarse (BR)",
+      "url": "https://www.catarse.me/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "hackaday",
+      "name": "Hackaday.io",
+      "url": "https://hackaday.io/{}",
+      "category": "general",
+      "method": "status_code"
+    },
+    {
+      "id": "opencollective",
+      "name": "Open Collective",
+      "url": "https://opencollective.com/{}",
+      "category": "general",
+      "method": "status_code"
+    }
+  ]
+}

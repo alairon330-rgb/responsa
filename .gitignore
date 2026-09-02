@@ -1,0 +1,18 @@
+# Ambiente Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Resultados exportados (dados de OSINT, não devem ir pro repo público)
+responsa_resultados/
+
+# Variáveis de ambiente / chaves (nunca commitar)
+.env
+.env.local
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
