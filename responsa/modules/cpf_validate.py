@@ -33,11 +33,11 @@ def _format(cpf: str) -> str:
     return f"{cpf[0:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:11]}"
 
 
-def is_valid_cpf(cpf: str) -> bool:
+def is_valid_cpf(cpf: str, check_repeated: bool = True) -> bool:
     cpf = _clean(cpf)
     if len(cpf) != 11:
         return False
-    if cpf == cpf[0] * 11:  # todos os dígitos iguais (000.000.000-00 etc.) — inválido por regra
+    if check_repeated and cpf == cpf[0] * 11:  # todos os dígitos iguais (000.000.000-00 etc.) — inválido por regra
         return False
 
     def _digit(base: str) -> int:
@@ -63,11 +63,13 @@ def run(cpf: str):
         utils.pause()
         return
 
-    valido = is_valid_cpf(clean)
+    digitos_ok = is_valid_cpf(clean, check_repeated=False)
+    repetido = clean == clean[0] * 11
+    valido = digitos_ok and not repetido
 
     table.add_row("CPF formatado", _format(clean))
-    table.add_row("Dígitos verificadores corretos", "✅ Sim" if valido else "❌ Não")
-    table.add_row("Conclusão", "Formato matematicamente válido" if valido else "CPF inválido (dígito verificador não bate)")
+    table.add_row("Dígitos verificadores corretos", "✅ Sim" if digitos_ok else "❌ Não")
+    table.add_row("Conclusão", "Formato matematicamente válido" if valido else ("CPF inválido (todos os dígitos iguais)" if repetido else "CPF inválido (dígito verificador não bate)"))
 
     utils.console.print(table)
     utils.info(
