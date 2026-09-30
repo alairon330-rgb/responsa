@@ -20,7 +20,7 @@ setup(
         "rich>=13.7.0",
         "phonenumbers>=8.13.0",
         "dnspython>=2.4.0",
-        "duckduckgo-search>=5.0.0",
+        "ddgs>=9.0.0",
         "colorama>=0.4.6",
         "pillow>=10.0.0",
     ],

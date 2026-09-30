@@ -4,7 +4,7 @@ name_search.py
 ---------------
 Busca por nome completo. Faz duas coisas:
 
-  1. Consulta o DuckDuckGo (via pacote duckduckgo_search) e mostra os
+  1. Consulta o DuckDuckGo (via pacote ddgs) e mostra os
      principais resultados públicos de busca web para o nome.
   2. Gera links diretos para outros motores de busca e bases públicas
      brasileiras comumente usadas em pesquisas de nome (sem fazer
@@ -21,7 +21,7 @@ from rich.table import Table
 from .. import utils
 
 try:
-    from duckduckgo_search import DDGS
+    from ddgs import DDGS
     HAS_DDGS = True
 except ImportError:
     HAS_DDGS = False
@@ -59,7 +59,7 @@ def run(name: str):
             utils.warn(f"Busca automática indisponível no momento ({exc}). "
                         "Use os links diretos abaixo.")
     else:
-        utils.warn("Pacote duckduckgo_search não instalado — pulando busca automática.")
+        utils.warn("Pacote ddgs não instalado — pulando busca automática.")
 
     if results:
         table = Table(title=f"Resultados de busca para '{name}'")
