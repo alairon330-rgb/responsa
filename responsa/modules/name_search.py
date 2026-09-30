@@ -54,7 +54,9 @@ def run(name: str):
         try:
             with DDGS() as ddgs:
                 for r in ddgs.text(f'"{name}"', region="br-pt", max_results=10):
-                    results.append(r)
+                    txt = " ".join(str(r.get(k, "")) for k in ("title", "href", "body")).lower()
+                    if all(p.strip(".,;:!?()") in txt for p in name.lower().split()):
+                        results.append(r)
         except Exception as exc:
             utils.warn(f"Busca automática indisponível no momento ({exc}). "
                         "Use os links diretos abaixo.")
