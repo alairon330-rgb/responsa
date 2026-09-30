@@ -69,7 +69,7 @@ def run(domain: str):
         name_value = cert.get("name_value", "")
         for sub in name_value.split("\n"):
             sub = sub.strip().lower()
-            if sub and "*" not in sub and sub.endswith(domain):
+            if sub and "*" not in sub and "@" not in sub and sub.endswith("." + domain):
                 subdomains.add(sub)
 
     sorted_subs = sorted(subdomains)
