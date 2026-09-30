@@ -21,13 +21,13 @@ def _clean_cnpj(cnpj: str) -> str:
 
 
 def _valid_cnpj_format(cnpj: str) -> bool:
-    return len(cnpj) == 14
+    return len(cnpj) == 14 and cnpj != cnpj[0] * 14 and _cnpj_digits_ok(cnpj)
 
 
 def run(cnpj: str):
     clean = _clean_cnpj(cnpj)
     if not _valid_cnpj_format(clean):
-        utils.error("CNPJ inválido. Use o formato 00.000.000/0000-00 ou só os 14 números.")
+        utils.error("CNPJ inválido: confira os 14 dígitos (formato ou dígito verificador incorreto).")
         utils.pause()
         return
 
@@ -92,3 +92,13 @@ def run(cnpj: str):
         utils.success(f"Resultado salvo em: {path}")
 
     utils.pause()
+
+
+def _cnpj_digits_ok(cnpj: str) -> bool:
+    def dv(base, pesos):
+        r = sum(int(d) * p for d, p in zip(base, pesos)) % 11
+        return 0 if r < 2 else 11 - r
+
+    d1 = dv(cnpj[:12], [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2])
+    d2 = dv(cnpj[:13], [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2])
+    return cnpj[12:] == f"{d1}{d2}"
